@@ -1,0 +1,23 @@
+{
+  "name": "function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "func start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "4.0.0"
+  },
+  "devDependencies": {
+    "@azure/functions": "4.0.1",
+    "@types/node": "20.8.7",
+    "azure-functions-core-tools": "4.0.5413",
+    "typescript": "5.2.2"
+  }
+}
